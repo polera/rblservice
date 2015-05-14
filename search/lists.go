@@ -13,6 +13,16 @@ type RBL struct {
 	Enabled  bool   `json:"enabled"`
 }
 
+func filter(rblLists []*RBL) []*RBL {
+	var enabled []*RBL
+	for _, rbl := range rblLists {
+		if rbl.Enabled {
+			enabled = append(enabled, rbl)
+		}
+	}
+	return enabled
+}
+
 func GetLists() ([]*RBL, error) {
 
 	file, err := os.Open(dataFile)
@@ -25,5 +35,5 @@ func GetLists() ([]*RBL, error) {
 	var lists []*RBL
 	err = json.NewDecoder(file).Decode(&lists)
 
-	return lists, err
+	return filter(lists), err
 }

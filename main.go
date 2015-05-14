@@ -1,19 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"net/http"
-
-	_ "github.com/polera/rblservice/search"
-	"github.com/zenazn/goji"
-	"github.com/zenazn/goji/web"
+	"github.com/polera/rblservice/search"
 )
 
-func hello(c web.C, w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, %s!", c.URLParams["name"])
-}
-
 func main() {
-	goji.Get("/hello/:name", hello)
-	goji.Serve()
+	search.Run("10.10.10.10")
 }
