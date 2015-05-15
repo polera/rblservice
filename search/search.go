@@ -1,6 +1,7 @@
 package search
 
 import (
+	"encoding/json"
 	"github.com/polera/gorbl"
 	"log"
 	"sync"
@@ -8,12 +9,10 @@ import (
 
 func search(rblList string, targetHost string, results chan<- *gorbl.RBLResults) {
 	res := gorbl.Lookup(rblList, targetHost)
-
 	results <- &res
-
 }
 
-func Run(hostAddress string) {
+func Run(hostAddress string) (res []byte) {
 
 	lists, err := GetLists()
 	if err != nil {
@@ -27,7 +26,6 @@ func Run(hostAddress string) {
 	waitGroup.Add(len(lists))
 
 	for _, list := range lists {
-		//	fmt.Printf("List: %s\n", list.HostName)
 		go func(rblList string, targetHost string) {
 			search(rblList, targetHost, results)
 			waitGroup.Done()
@@ -37,22 +35,20 @@ func Run(hostAddress string) {
 	go func() {
 		// Wait for everything to be processed.
 		waitGroup.Wait()
-
 		close(results)
 	}()
 
-	Display(results)
+	return toJSON(results)
 }
 
-func Display(results chan *gorbl.RBLResults) {
-	// The channel blocks until a result is written to the channel.
-	// Once the channel is closed the for loop terminates.
+func toJSON(results chan *gorbl.RBLResults) (res []byte) {
+	var tmpRes []gorbl.RBLResults
 	for result := range results {
-		log.Printf("%s\n\n", result.List)
-		for _, listing := range result.Results {
-			log.Printf("%s:\n%v\n%v\n\n", listing.Address,
-				listing.Listed, listing.Text)
-		}
+		tmpRes = append(tmpRes, *result)
+	}
+	res, err := json.Marshal(tmpRes)
+	if err != nil {
+		log.Fatal(err)
 	}
 	return
 }

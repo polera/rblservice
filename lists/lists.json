@@ -1,6 +1,6 @@
 [
     {
-        "enabled": true,
+        "enabled": false,
         "host": "aspews.ext.sorbs.net"
     },
     {
@@ -8,15 +8,15 @@
         "host": "b.barracudacentral.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "bl.deadbeef.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "bl.emailbasura.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "bl.spamcannibal.org"
     },
     {
@@ -24,283 +24,283 @@
         "host": "bl.spamcop.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "blackholes.five-ten-sg.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "blacklist.woody.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "bogons.cymru.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "cbl.abuseat.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "cdl.anti-spam.org.cn"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "combined.abuse.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "combined.rbl.msrbl.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "db.wpbl.info"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl-1.uceprotect.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl-2.uceprotect.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl-3.uceprotect.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl.cyberlogic.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl.dronebl.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl.inps.de"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl.njabl.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "drone.abuse.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "duinv.aupads.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dul.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dul.ru"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dyna.spamrats.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "dynip.rothen.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "http.dnsbl.sorbs.netimages.rbl.msrbl.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ips.backscatterer.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ix.dnsbl.manitu.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "korea.services.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "misc.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "noptr.spamrats.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ohps.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "omrs.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "orvedb.aupads.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "osps.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "osrs.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "owfs.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "owps.dnsbl.net.aupbl.spamhaus.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "phishing.rbl.msrbl.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "probes.dnsbl.net.auproxy.bl.gweep.ca"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "proxy.block.transip.nl"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "psbl.surriel.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "rbl.interserver.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "rdts.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "relays.bl.gweep.ca"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "relays.bl.kundenserver.de"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "relays.nether.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "residential.block.transip.nl"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ricn.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "rmst.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "sbl.spamhaus.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "short.rbl.jp"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "smtp.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "socks.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spam.abuse.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spam.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spam.rbl.msrbl.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spam.spamrats.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spamlist.or.kr"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "spamrbl.imp.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "t3direct.dnsbl.net.au"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "tor.dnsbl.sectoor.de"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "torserver.tor.dnsbl.sectoor.de"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ubl.lashback.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "ubl.unsubscore.com"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "virbl.bit.nl"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "virus.rbl.jp"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "virus.rbl.msrbl.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "web.dnsbl.sorbs.net"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "wormrbl.imp.ch"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "xbl.spamhaus.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "zen.spamhaus.org"
     },
     {
-        "enabled": true,
+        "enabled": false,
         "host": "zombie.dnsbl.sorbs.net"
     }
 ]
