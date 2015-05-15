@@ -36,7 +36,7 @@
         "host": "bogons.cymru.com"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "cbl.abuseat.org"
     },
     {
@@ -56,15 +56,15 @@
         "host": "db.wpbl.info"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "dnsbl-1.uceprotect.net"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "dnsbl-2.uceprotect.net"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "dnsbl-3.uceprotect.net"
     },
     {
@@ -80,11 +80,11 @@
         "host": "dnsbl.inps.de"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "dnsbl.njabl.org"
     },
     {
-        "enabled": false,
+        "enabled": true,
         "host": "dnsbl.sorbs.net"
     },
     {
